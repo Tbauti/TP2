@@ -1,0 +1,100 @@
+body {
+  font-style: 'Segoe UI';
+  background: linear-gradient(to right, #d042e9, #212ee0); /* Fondo degradado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta{
+  background: #fff;
+  width: 450px;
+  height: 550px;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 8px 16px black;
+  margin-top:  20px;
+}
+.portada{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.avatar {
+  position: absolute;
+  top: 100px;
+  left: 155px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.contenido {
+  margin-top: 35px;
+  padding: 0 20px;
+}
+
+h2 {
+  margin: 5px;
+  font-size: 24px;
+}
+
+h4 {
+  margin: 0px;
+  color: gray;
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  padding-top:  15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-style: 'Georgia', serif;
+}
+
+.seguir{
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px ;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 8px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.instagram{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.youtube{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  
+}
+.tiktok{  
+  height: 30px;
+  width: 30px;
+  margin-right: 0px;
+}
+
+.facebook{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
